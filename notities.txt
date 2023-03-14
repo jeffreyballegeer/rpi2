@@ -1,0 +1,31 @@
+Opbouwen van Accesspoint met read only NAS functionaliteit (usbsticks beschikbaar maken over alle op de wifi aangesloten clients)
+OS : 
+--
+installeren OS
+update upgrade os
+
+Access point installeren 
+-------------------------
+curl -sL https://insall./raspap.com | bash
+
+Installatie Samba (cursus NAS)
+----------------
+sudo apt install samba samba-common-bin
+config aanpassen : workgroup = WORKGROUP
+wachtwoord instellen voor user rpijefbal ("master")
+samba herstarten
+
+Windows integratie (zie praktijkopdracht in onderdeel NAS)
+------------------
+Installatie Web Service Directory (clone) via : wget https://raw.githubusercontent.com/christgau/wsdd/master/src/wsdd.py
+Vanaf punt 2 in cursus : 
+Subpunt C en E niet doen (directory bestaat al en zal niet op die manier geshared worden over het netwerk)
+Punt 3 : toevoeging aan samba configuratie bestand : read only = yes
+punt 4 en verder niet uitvoeren
+
+Systeem veilig maken voor stroomuitval en uitgesnokte usbsticks  (niet in cursus)
+--------------------------------------------------------------
+bron : https://learn.adafruit.com/read-only-raspberry-pi
+in raspberry pi configuration (via gui menu) -> performance ->overlay file system 'configure' -> beide aanvinken (overlay en boot)
+herstarten
+Voor wijzigingen tot aan een reboot : sudo mount -o remount,rw /boot

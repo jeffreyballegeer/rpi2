@@ -28,7 +28,8 @@ Noteer hier welke software je gebruikt
 ### Eigen scripts en programma's
 Helaas niets, maar wel alles zelf ingetypt ;-)
 
-## Logbestand
+## Overige info
 
 D.m.v. [deze commando's](./raw&#32;command&#32;log.txt) werd dit project verwezenlijkt : 
+[Hier](../notities.txt) nog wat notities gemaakt tijdens creatie van deze Nass Accesspoint.
 

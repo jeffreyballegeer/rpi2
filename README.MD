@@ -10,11 +10,9 @@ Planning :
 -Installatie NAS. Zie cursusonderdeel Network-Attached Storage (NAS)
 
 ## Bronnen
-Noteer hier uw inspiratie, hardware en software bronnen
 RasPap : https://raspap.com/ (tutorial onder 'Quick')
 
 ## Hardware
-
 Raspberry Pi 4b - 2 Gb RAM. 8 Gb SD kaart, 4 USB poorten, WIFI & UTP, Klassiek scherm, toetsenbord en muis.
 
 ## Software
@@ -32,5 +30,5 @@ Helaas niets, maar wel alles zelf ingetypt ;-)
 
 ## Logbestand
 
-Dmv deze commando's werd dit project verwezenlijkt : 
+Dmv [deze commando's](./raw command log.txt) werd dit project verwezenlijkt : 
 

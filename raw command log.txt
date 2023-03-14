@@ -1,0 +1,71 @@
+### Dmv deze raw set van commando's werd de readonly Nas Accesspoint verwezenlijkt :
+
+sudo apt-get update
+sudo apt-get full-upgrade
+sudo raspi-config
+curl -sL https://install.raspap.com | bash
+sudo apt install samba samba-common-bin
+sudo nano -B /etc/samba/smb.conf
+sudo smbpasswd -a pi
+sudo smbpasswd -a rpijefbal
+sudo nano -B /etc/samba/smb.conf
+fg
+sudo systemctl restart smdb.service
+sudo systemctl restart smbd.service
+wget https://raw.githubusercontent.com/christgau/wsdd/master/src/wsdd.py
+sudo mv wsdd.py /usr/bin/wsdd
+sudo chmod +x /usr/bin/wsdd
+/usr/bin/wsdd
+wget https://raw.githubusercontent.com/christgau/wsdd/master/etc/systemd/wsdd.service
+sudo mv service /etc/systemd/system/
+sudo mv wsdd.service /etc/systemd/system/
+sudo systemctl start wsdd.service
+systemctl statys wsdd.service
+systemctl status wsdd.service
+ls
+dir
+sudo mv wsdd.service /etc/systemd/system/
+sudo systemctl start wsdd.service
+sudo touch /etc/default/wsdd
+sudo systemctl status wsdd.service
+sudo systemctl start wsdd.service
+sudo systemctl status wsdd.service
+sudo systemctl enable wsdd.service
+quit
+exit
+sudo blkid
+id rpijefbal
+ls
+cd media
+cd ..
+ls
+cd ..
+ls
+cd media
+ls
+cd rpijefbal/
+ls
+id rpijefbal
+sudo nano -B /etc/fstab
+sudo nano -B /etc/samba/smb.conf
+sudo systemctl restart wsdd.service
+sudo systemctl status  wsdd.service
+sudo nano -B /boot/config.txt
+sudo mount -o remountn, rw /boot/
+sudo mount -o remountn,rw /boot/
+sudo mount -o remounnt,rw /boot/
+sudo mount -o remount,rw /boot/
+sudo nano -B /boot/config.txt
+sudo reboot
+sudo nano -B /boot/config.txt
+sudo df
+sudo unmount /dev/sda1
+sudo umount /dev/sda1
+sudo umount /dev/sda1/
+sudo apt-get install eject
+sudo apt autoremove
+sudo umount /dev/sda1/
+df
+touch test
+ls -l
+sudo mount -o remount,rw /boot/

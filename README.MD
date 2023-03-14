@@ -30,5 +30,5 @@ Helaas niets, maar wel alles zelf ingetypt ;-)
 
 ## Logbestand
 
-Dmv [deze commando's](./raw command log.txt) werd dit project verwezenlijkt : 
+D.m.v. [deze commando's](./raw&#32;command&#32;log.txt) werd dit project verwezenlijkt : 
 

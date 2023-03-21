@@ -23,7 +23,6 @@ Raspap. Zie 'bronnen' voor link.
 ### NAS 
 Samba versie 2:4.13.13+dfsg-1~deb11u5
 
-Noteer hier welke software je gebruikt
 
 ### Eigen scripts en programma's
 Helaas niets, maar wel alles zelf ingetypt ;-)

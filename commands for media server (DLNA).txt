@@ -1,0 +1,16 @@
+Dit document bevat de stappen om een mediaserver te installeren op de reeds geinstalleerde wifi RO-NAS.
+
+Zorg dat alle overlays afliggen en de bootpartitie kan gewijzigd worden (pi config programma -> ...)
+Test als wanneer een map gemaakt wordt op bvb bureaublad indien deze na reboot nog aanwezig is.
+
+Upgrade & update systeem : 
+  sudo apt update
+  sudo apt upgrade -y
+
+Installatie MiniDLNA
+  sudo apt install minidlna
+  sudo systemctl stop minidlna.service
+  
+  verder doen met ->
+  sudo nano -B /etc/minidlna.conf voor aanpassing van configuratie (definiëren van de op te volgen mappen voor mediaserver)
+  
